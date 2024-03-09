@@ -1,0 +1,29 @@
+(venv) PS C:\Users\rafae\Organizar\REPOS\first_python_repo\inception> pip install --upgrade pip
+Requirement already satisfied: pip in c:\users\rafae\organizar\repos\first_python_repo\venv\lib\site-packages (24.0)
+(venv) PS C:\Users\rafae\Organizar\REPOS\first_python_repo\inception> pip --version            
+pip 24.0 from C:\Users\rafae\Organizar\REPOS\first_python_repo\venv\lib\site-packages\pip (python 3.10)
+(venv) PS C:\Users\rafae\Organizar\REPOS\first_python_repo\inception> pip freeze
+(venv) PS C:\Users\rafae\Organizar\REPOS\first_python_repo\inception> pip freeze
+(venv) PS C:\Users\rafae\Organizar\REPOS\first_python_repo\inception> pip list
+Package    Version
+---------- -------
+pip        24.0
+setuptools 58.1.0
+(venv) PS C:\Users\rafae\Organizar\REPOS\first_python_repo\inception> pip install --upgrade Pillow
+Collecting Pillow
+  Using cached pillow-10.2.0-cp310-cp310-win_amd64.whl.metadata (9.9 kB)
+Using cached pillow-10.2.0-cp310-cp310-win_amd64.whl (2.6 MB)
+Installing collected packages: Pillow
+Successfully installed Pillow-10.2.0
+(venv) PS C:\Users\rafae\Organizar\REPOS\first_python_repo\inception> pip freeze
+pillow==10.2.0
+(venv) PS C:\Users\rafae\Organizar\REPOS\first_python_repo\inception> pip freeze cat > requirements.txt
+(venv) PS C:\Users\rafae\Organizar\REPOS\first_python_repo\inception> pip install -r requirements.txt
+Requirement already satisfied: pillow==10.2.0 in c:\users\rafae\organizar\repos\first_python_repo\venv\lib\site-packages (from -r requirements.txt (line 1)) (10.2.0)
+(venv) PS C:\Users\rafae\Organizar\REPOS\first_python_repo\inception> pip list
+Package    Version
+---------- -------
+pillow     10.2.0
+pip        24.0
+setuptools 58.1.0
+(venv) PS C:\Users\rafae\Organizar\REPOS\first_python_repo\inception> 
